@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="nav-box">
-      <RouterLink to="/product/child">child</RouterLink>
-      <RouterLink to="/product/child2">child2</RouterLink>
+      <RouterLink to="/product/child">child - page</RouterLink>
+      <RouterLink to="/product/child/code/code1">child - code</RouterLink>
     </div>
     <RouterView />
   </div>
