@@ -13,9 +13,10 @@ export const router = createRouter({
 })
 
 // 注释掉下面所有的代码就正常了
-const sleep = (n: number) => new Promise((resolve) => setTimeout(() => resolve(true), n))
+// const sleep = (n: number) => new Promise((resolve) => setTimeout(() => resolve(true), n))
 
-router.beforeEach(async () => {
-  await sleep(1000)
-  return true
-})
+// router.beforeEach(async () => {
+//   // await sleep(50)
+//   await sleep(1000)
+//   return true
+// })
